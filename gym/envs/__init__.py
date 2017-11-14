@@ -510,5 +510,5 @@ register(
 
 register(
          id='OUTrading-v1',
-         entry_point='gym.envs.simtrading:OUTrading-v1',
+         entry_point='gym.envs.simtrading:OUTradingEnv',
 )
