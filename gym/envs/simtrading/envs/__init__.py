@@ -1,1 +1,1 @@
-from gym_trading.envs.OU_env import OUEnv
+from gym.envs.simtrading.envs.OUTrading import OUTradingEnv
