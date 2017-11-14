@@ -507,3 +507,9 @@ register(
     entry_point='gym.envs.safety:OffSwitchCartpoleProbEnv',
     max_episode_steps=200,
 )
+
+
+register(
+         id='OUTrading-v1',
+         entry_point='gym.envs.my_collection:OUTrading-v1',
+)
