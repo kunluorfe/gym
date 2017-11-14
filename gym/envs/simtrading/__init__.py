@@ -1,6 +1,6 @@
-from gym.envs.simtrading.OUtrading import OUTradingEnv
+from gym.envs.registration import register
 
 register(
-         id='OUTrading-v1',
-         entry_point='gym.envs.simtrading:OUTradingEnv',
+    id='OUTrading-v0',
+    entry_point='gym.envs.simtrading:OUTradingEnv',
 )
